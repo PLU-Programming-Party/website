@@ -87,3 +87,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Contributors
 - [Chris Holland](https://github.com/chrishollandaise)
 - [Joshua "Berk" Berkenpas](https://github.com/Berkenpas)
+- [Lilyan Coleman](https://github.com/lilycosm)
