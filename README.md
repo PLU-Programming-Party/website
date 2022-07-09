@@ -12,7 +12,7 @@
 3. Install the project dependencies via<br>`npm install`
 4. Refer to "Getting Started with Create React App" to run, test, and build the app.
 <details>
-<summary class="h2">Getting Started with Create React App</summary>
+<summary style="font-size:1.5em; font-weight: bold">Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
