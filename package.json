@@ -46,6 +46,6 @@
     "eslint-plugin-react-hooks": "^4.6.0"
   },
   "jest": {
-    "testMatch": ["**/__tests__/**/*.js?(x)', '**/?(*.)(spec|test).js?(x)"]
+    "testMatch": ["**/__tests__/*.js?(x)"]
   }
 }
