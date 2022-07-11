@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+          }
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint", 
+			"orta.vscode-jest",
+			"esbenp.prettier-vscode", 
+			"eamodio.gitlens", 
+			"pkief.material-icon-theme",
+			"davidanson.vscode-markdownlint",
+			"ecmel.vscode-html-css",
+			"pranaygp.vscode-css-peek",
+			"xabikos.JavaScriptSnippets",
+			"wayou.vscode-todo-highlight",
+			"kamikillerto.vscode-colorize",
+			"shd101wyy.markdown-preview-enhanced",
+			"alefragnani.Bookmarks"
+		]
+	}
+}
