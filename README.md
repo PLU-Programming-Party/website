@@ -1,17 +1,21 @@
 # Website
 
 ## Getting Started
+
 ### Prerequisites
+
 *If your platform is Windows, **please use the GitBash terminal** rather than Command Prompt or Powershell.*<br>
 [Download Git](https://git-scm.com/)<br>
 [Download Node.js](https://nodejs.org)
 
 ### Setup
-1. Open up your platform's terminal application, and clone this project.<br>`git clone https://github.com/PLU-Programming-Party/website.git`
-2. Change your working directory to the project folder.<br>`cd website`
-3. Install the project dependencies via<br>`npm install`
-4. Refer to "Getting Started with Create React App" to run, test, and build the app.
+
+    1. Open up your platform's terminal application, and clone this project.<br>`git clone https://github.com/PLU-Programming-Party/website.git`
+    2. Change your working directory to the project folder.<br>`cd website`
+    3. Install the project dependencies via<br>`npm install`
+    4. Refer to "Getting Started with Create React App" to run, test, and build the app.
 <details>
+
 <summary style="font-size:1.5em; font-weight: bold">Getting Started with Create React App</summary>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -85,6 +89,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 </details>
 
 ## Contributors
-- [Chris Holland](https://github.com/chrishollandaise)
-- [Joshua "Berk" Berkenpas](https://github.com/Berkenpas)
-- [Lilyan Coleman](https://github.com/lilycosm)
+    - [Chris Holland](https://github.com/chrishollandaise)
+    - [Joshua "Berk" Berkenpas](https://github.com/Berkenpas)
+    - [Lilyan Coleman](https://github.com/lilycosm)
