@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "name": "PLU Inventory System",
+            "members": ["AJ", "Lid", "Natalie", "Cass", "Kioni"],
+            "titan": "Anastasia"
+        },
+        {
+            "name": "Lego Finder",
+            "members": ["Christiaan", "Hongsen", "Ben", "Erick"],
+            "titan": "DMac"
+        },
+        {
+            "name": "Text-based Game",
+            "members": ["Tyler", "Ryan", "Ehukai", "Hernandez", "Sun"],
+            "titan": "James"
+        },
+        {
+            "name": "Programming Party Website",
+            "members": ["Ashley", "Berk", "Chris", "Lilyan", "Seth"],
+            "titan": "Quinton"
+        },
+        {
+            "name": "Solar System",
+            "members": ["Kieran, Stuart, Laurence, Caleb, Logan"],
+            "titan": "Andy"
+        },
+        {
+            "name": "Quickdraw",
+            "members": ["Ariel, Noel, Etha, Lisa, Angela, Andrew"],
+            "titan": "Dr. Caley"
+        },
+        {
+            "name": "Mikhail's Project",
+            "members": ["Mikhail"],
+            "titan": null
+        },
+        {
+            "name": "Go Fish",
+            "members": ["Noel, Lisa"],
+            "titan": null
+        },
+        {
+            "name": "Planets!",
+            "members": ["Travis"],
+            "titan": null
+        }
+    ]
+}
