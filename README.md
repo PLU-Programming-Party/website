@@ -3,7 +3,8 @@ PLU Programming party website.
 
 ### Contributors
 
-Joshua "Berk" Berkenpas
+Duffy Anderson
 
 "I find github to be utterly confusing."
       --Dr. Caley
+            --Joshua "Berk" Berkenpas
