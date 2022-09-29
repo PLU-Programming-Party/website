@@ -1,26 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import useWindowSize from 'react-use/lib/useWindowSize'
+import Confetti from 'react-confetti'
 
 function App() {
+
+  function Confetti(){
+    const { width, height } = useWindowSize()
+      return <Confetti
+      width={width}
+      height={height}
+      />
+  }
+
+  const { width, height } = useWindowSize()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick = {Confetti}>
+        This is not a button!
+      </button>
     </div>
   );
 }
+
+
 
 export default App;
