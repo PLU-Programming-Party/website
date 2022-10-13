@@ -1,6 +1,5 @@
 package-lock.json
 /node_modules/*
-/party-website/node_modules/*
 /.pnp
 .pnp.js
 
@@ -8,7 +7,7 @@ package-lock.json
 /coverage
 
 # production
-/party-website/build/*
+/build/*
 
 # misc
 .DS_Store
