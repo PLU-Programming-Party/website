@@ -7,7 +7,7 @@ export default function Project(props : projectprops) {
 
   return (
     <div>
-      <img className={props.confetti ? 'spinny-time' : ''} src="../../img/ski-mage.png" alt="ski mage img" />
+      <img className={props.confetti ? 'spinny-time' : ''} src={`${process.env.PUBLIC_URL}/img/ski-mage.png`} alt="ski mage img" />
     </div>
   )
 }

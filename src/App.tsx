@@ -8,6 +8,9 @@ import Header from './components/header/Header';
 import Project from './components/project/Project';
 
 function App() {
+
+  console.log(process.env)
+
   const [confetti, setConfetti] = useState(false);
 
   const { width, height } = useWindowSize()
