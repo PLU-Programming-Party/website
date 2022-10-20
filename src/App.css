@@ -3,33 +3,19 @@
   text-align: center;
 }
 
-#header {
-  animation-name: spin;
-  animation-duration: 100000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-#header div {
-  animation-name: spin;
-  animation-duration: 100000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-#header div ul li {
-  animation-name: spin;
-  animation-duration: 100000ms;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
 button {
   font-family: 'Comic Sans MS', 'Comic Sans';
 }
 
 .spinny-time {
   animation-name: spin-reverse;
+  animation-duration: 100000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.spinny-time-2 {
+  animation-name: spin;
   animation-duration: 100000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
