@@ -5,7 +5,7 @@ export default function Header() {
 
   const home = {
     direction: ((Math.random() * 10) < 5 ? true : false),
-    duration: (Math.round(Math.random() * 1000000000) + 100)
+    duration: (Math.round(Math.random() * 1000) + 100)
   }
 
   const projects = {
@@ -27,15 +27,17 @@ export default function Header() {
     let string = "";
 
     if(headerObject.direction){
-      string += "spinny-time-2 "
+      string += "spinny-time-2-hover "
     } else {
-      string += "spinny-time "
+      string += "spinny-time-hover "
     }
 
     return string
   }
 
-  
+  function propellerSpeed(headerObject:any) {
+    return ""+headerObject.duration+"ms"
+  }
 
   return (
     <div id='header'>
@@ -44,10 +46,10 @@ export default function Header() {
         </div>   
         <div>
             <ul className='directory-list'>
-                <li className={propellerClass(home)}><a href='https://www.google.com/' target='_blank'>home</a></li>
-                <li className={propellerClass(projects)}><a href='https://www.bing.com/' target='_blank'>projects</a></li>
-                <li className={propellerClass(about)}><a href='https://www.google.com/' target='_blank'>about</a></li>
-                <li className={propellerClass(join)}><a href='https://www.google.com/' target='_blank'>join</a></li>
+                <li className={propellerClass(home)} style={{animationDuration:propellerSpeed(home)}}><a href='https://www.google.com/' target='_blank'>home</a></li>
+                <li className={propellerClass(projects)} style={{animationDuration:propellerSpeed(projects)}}><a href='https://www.bing.com/' target='_blank'>projects</a></li>
+                <li className={propellerClass(about)} style={{animationDuration:propellerSpeed(about)}}><a href='https://www.google.com/' target='_blank'>about</a></li>
+                <li className={propellerClass(join)} style={{animationDuration:propellerSpeed(join)}}><a href='https://www.google.com/' target='_blank'>join</a></li>
             </ul>
         </div>
     </div>
