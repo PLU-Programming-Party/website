@@ -50,25 +50,25 @@ export default function Header() {
             className={propellerClass(home)}
             style={{ animationDuration: propellerSpeed(home) }}
           >
-            <NavLink to="/website/home">home</NavLink>
+            <NavLink to="/home">home</NavLink>
           </li>
           <li
             className={propellerClass(projects)}
             style={{ animationDuration: propellerSpeed(projects) }}
           >
-            <NavLink to="/website/projects">projects</NavLink>
+            <NavLink to="/projects">projects</NavLink>
           </li>
           <li
             className={propellerClass(about)}
             style={{ animationDuration: propellerSpeed(about) }}
           >
-            <NavLink to="/website/about">about</NavLink>
+            <NavLink to="/about">about</NavLink>
           </li>
           <li
             className={propellerClass(join)}
             style={{ animationDuration: propellerSpeed(join) }}
           >
-            <NavLink to="/website/join">join</NavLink>
+            <NavLink to="/join">join</NavLink>
           </li>
         </ul>
       </div>
