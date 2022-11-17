@@ -50,7 +50,7 @@ export default function Header() {
             className={propellerClass(home)}
             style={{ animationDuration: propellerSpeed(home) }}
           >
-            <NavLink to="/home">home</NavLink>
+            <NavLink to="/">home</NavLink>
           </li>
           <li
             className={propellerClass(projects)}

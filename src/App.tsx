@@ -8,16 +8,18 @@ import Header from "./components/header/Header";
 import Project from "./components/project/Project";
 import Layout from "./components/layout/Layout";
 import About from "./components/About/About";
+import PageNotFound from "./components/pageNotFound/PageNotFound";
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="home" element={<Project />}></Route>
+          <Route index element={<Project />}></Route>
           <Route path="about" element={<About />}></Route>
           <Route path="projects" element={<Project />}></Route>
           <Route path="join" element={<Project />}></Route>
+          <Route path="*" element={<PageNotFound/>}></Route>
         </Route>
       </Routes>
     </Router>
