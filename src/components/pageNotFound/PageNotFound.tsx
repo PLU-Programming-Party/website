@@ -1,13 +1,13 @@
 import { Configuration, OpenAIApi} from "openai";
 import React from "react";
-import {useAsync} from "react-async"
+import {useAsync,Async} from "react-async"
 // import "../App.css";
+
 
 export default function PageNotFound() {
     const retrieveSkiMage = async() => {
-        console.log(process.env.OPENAI_API_KEY)
         const config = new Configuration({
-            apiKey:process.env.OPENAI_API_KEY
+            apiKey:""
         });
         const openai = new OpenAIApi(config)
         const response = await openai.createImage({
@@ -16,17 +16,41 @@ export default function PageNotFound() {
             size: "512x512"
         });
         const imageUrl = response.data.data[0].url;
-        return imageUrl
+        console.log(imageUrl)
+        return new Promise((resolve) => {
+          resolve( imageUrl ) 
+      })
     }
-    const {data, error} = useAsync({promiseFn: retrieveSkiMage})
+    //const {data, error} = useAsync({promiseFn: retrieveSkiMage})
+
+    //console.log(data)
+  //   <div>
+  //   <div>
+  //     <img
+  //       src={`${data}`}
+  //       alt="ski mage img"
+  //     />
+  //   </div>
+  // </div>
   return (
-    <div>
-      <div>
-        <img
-          src={`${data}`}
-          alt="ski mage img"
-        />
-      </div>
-    </div>
+    <Async promiseFn={ retrieveSkiMage}>
+      <Async.Pending></Async.Pending>
+      <Async.Fulfilled>
+        {data => (
+           <div>
+              <div>
+                <img
+                 src={`${data}`}
+                  alt="ski mage img"
+                />
+              </div>
+            </div>
+        )}
+      </Async.Fulfilled>
+      <Async.Rejected></Async.Rejected>
+    </Async>
+  
   );
+    
 }
+
